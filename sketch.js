@@ -39,18 +39,13 @@ const letterC = {
   "dressliftL": -35
 }
 
-const darkGreen  = "#26b29d";
-const lightGreen  = "#30dfc4";
-const strokeColor  = "#0a2d27";
-
 function setup () {
   // create the drawing canvas, save the canvas element
   main_canvas = createCanvas(canvasWidth, canvasHeight);
   main_canvas.parent('canvasContainer');
 
   // color/stroke setup
-  stroke(strokeColor);
-  strokeWeight(0);
+  noStroke()
 
   // with no animation, redrawing the screen is not necessary
   noLoop();
@@ -76,15 +71,11 @@ function drawLetter(posx, posy, letterData) {
   // determine parameters for second circle
   
   let legR = letterData["legpointR"];
-  let toeR = letterData["toepointR"]
-  let ankleR = letterData["anklejointR"]
-  let armR = letterData["armraiseR"]
   let legL = letterData["legpointL"];
-  let toeL = letterData["toepointL"]
-  let ankleL = letterData["anklejointL"]
-  let armL = letterData["armraiseL"]
-  let dressL = letterData["dressliftL"]
-  let dressR = letterData["dressliftR"]
+  let armR = letterData["armraiseR"];
+  let armL = letterData["armraiseL"];
+  let dressL = letterData["dressliftL"];
+  let dressR = letterData["dressliftR"];
 
   fill(255, 229, 199)//skin
 

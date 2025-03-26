@@ -5,19 +5,30 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": -14,
+    "legpointL": 14,
+    "armraiseR": -185,
+    "armraiseL": 185,
+    "elbowR": 0,
+    "elbowL": 0,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "B": {
-    "size": 75,
-    "offsetx": 0,
-    "offsety": -70
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": 180,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "C": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -140,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "D": {
     "size": 50,
