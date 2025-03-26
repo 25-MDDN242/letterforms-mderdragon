@@ -13,12 +13,8 @@ const canvasHeight = 500;
  */
 
 const letterA = {
-  "legpointR": -20,
-  "legpointL": 20,
-  "toepointR": 0,
-  "toepointL": 0,
-  "anklejointR": 15,
-  "anklejointL": -15,
+  "legpointR": -14,
+  "legpointL": 14,
   "armraiseR": -185,
   "armraiseL": 185,
   "dressliftR": 0,
@@ -27,24 +23,16 @@ const letterA = {
 
 const letterB = {
   "legpointR": 0,
-  "legpointL": 20,
-  "toepointR": 0,
-  "toepointL": 0,
-  "anklejointR": 0,
-  "anklejointL": -15,
-  "armraiseR": 0,
+  "legpointL": 0,
+  "armraiseR": 180,
   "armraiseL": 20,
   "dressliftR": 0,
   "dressliftL": -35
 }
 
 const letterC = {
-  "legpointR": -20,
+  "legpointR": -14,
   "legpointL": 0,
-  "toepointR": 0,
-  "toepointL": 0,
-  "anklejointR": 15,
-  "anklejointL": 0,
   "armraiseR": -140,
   "armraiseL": 20,
   "dressliftR": 0,
@@ -101,15 +89,15 @@ function drawLetter(posx, posy, letterData) {
   fill(255, 229, 199)//skin
 
   push()
-  translate(posx + 10, posy + 40)
+  translate(posx + 10, posy)
   rotate(legR)
-  ellipse(0, 0, 12, 80)//right leg
+  ellipse(0, 40 - legR/2, 12, 80)//right leg
   pop()
 
   push()
-  translate(posx - 10, posy + 40)
+  translate(posx - 10, posy)
   rotate(legL)
-  ellipse(0, 0, 12, 80)//left leg
+  ellipse(0, 40 - legR/2, 12, 80)//left leg
   pop()
 
   push()
@@ -136,29 +124,19 @@ function drawLetter(posx, posy, letterData) {
 
   push()
   translate(posx + 10, posy + 80)
-  rotate(toeR)
-  ellipse(ankleR, 0, 10, 15)//right foot
+  rotate(legR)
+  ellipse(-legR * 1.5, -legR/2, 10, 15)//right foot
   pop()
 
   push()
   translate(posx - 10, posy + 80)
-  rotate(toeL)
-  ellipse(ankleL, 0, 10, 15)//left foot
+  rotate(legL)
+  ellipse(-legL * 1.5, legL/2, 10, 15)//left foot
   pop()
 
   fill(255, 229, 199)//skin
   ellipse(posx + 0, posy -55, 12, 30)//neck
   ellipse(posx + 0, posy -70, 20, 30)//head
-  
-  // let size2 = letterData["size"];
-  // let pos2x = posx + letterData["offsetx"];
-  // let pos2y = posy + letterData["offsety"];
-
-  // // draw two circles
-  // fill(darkGreen);
-  // ellipse(posx, posy, 150, 150);
-  // fill(lightGreen);
-  // ellipse(pos2x, pos2y, size2, size2);
 }
 
 function keyTyped() {

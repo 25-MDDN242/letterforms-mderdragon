@@ -3,3 +3,5 @@
 ## MDDN 242 2025 Assignment 2
 
 My letters are resembled by a dancing woman in a red dress. Her arms, legs, and toes are controlled by parameters that rotate and move. These parameters are duplicated and reversed for left and right limbs (marked by either an L or R). Both sides of her skirt can be 'lifted' via parameters as well for more dynamism.
+
+I decided to remove the parameters that controlled the pointing of the feet as it was not a very noticable detail and I wanted to make room for more parameters such as elbows and knees.
