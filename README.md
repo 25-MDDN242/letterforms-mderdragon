@@ -2,11 +2,4 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18867790&assignment_repo_type=AssignmentRepo)
 ## MDDN 242 2025 Assignment 2
 
-(Replace this README with information about your alphabet. This is an example.)
-
-Each of my letters is composed with two circles. The size and position of the first circle is fixed, but the location and size of the second circle is controlled by three parameters.
-
-The three parameters per letter:
-  * `size` : radius of the second circle
-  * `offsetx` : x offset of the second circle relative to the first one
-  * `offsety` : y offset of the second circle relative to the first one
+My letters are resembled by a dancing woman in a red dress. Her arms, legs, and toes are controlled by parameters that rotate and move. These parameters are duplicated and reversed for left and right limbs (marked by either an L or R). Both sides of her skirt can be 'lifted' via parameters as well for more dynamism.
