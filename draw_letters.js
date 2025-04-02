@@ -1,5 +1,5 @@
 /* these are optional special variables which will change the system */
-var systemBackgroundColor = "#acf2e7";
+var systemBackgroundColor = "#2a5587";
 var systemLineColor = "#000090";
 var systemBoxColor = "#C73869";
 
@@ -72,14 +72,36 @@ function drawLetter(letterData) {
   push()
   translate(70, 55)
   rotate(armR)
-  ellipse(0, 25, 10, 60)//right arm
+  ellipse(0, 10, 10, 30)//right arm
   pop()
 
   push()
   translate(30, 55)
   rotate(armL)
-  ellipse(0, 25, 10, 60)//left arm
+  ellipse(0, 10, 10, 30)//left arm
   pop()
+
+if(armR <= 90 && armR>= -90) {
+  push()
+  translate(70 - (armR/3.5), 85 + (armR/3.3))
+  rotate(forearmR)
+  ellipse(0, 10, 10, 35)//left arm
+  pop()
+} else {
+  push()
+  translate(70 - (armR/3.5), 85 + (armR/3.3))
+  rotate(forearmR)
+  ellipse(0, 10, 10, 35)//left arm
+  pop()
+}
+
+  push()
+  translate(30 - (armL/3.5), 85 - (armL/3.3))
+  rotate(forearmL)
+  ellipse(0, 10, 10, 35)//left arm
+  pop()
+
+
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
@@ -87,6 +109,9 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["legpointR"]    = map(percent, 0, 100, oldObj["legpointR"], newObj["legpointR"]);
   new_letter["legpointL"] = map(percent, 0, 100, oldObj["legpointL"], newObj["legpointL"]);
   new_letter["armraiseR"] = map(percent, 0, 100, oldObj["armraiseR"], newObj["armraiseR"]);
+  new_letter["armraiseL"]    = map(percent, 0, 100, oldObj["armraiseL"], newObj["armraiseL"]);
+  new_letter["dressliftR"] = map(percent, 0, 100, oldObj["dressliftR"], newObj["dressliftR"]);
+  new_letter["dressliftL"] = map(percent, 0, 100, oldObj["dressliftL"], newObj["dressliftL"]);
   return new_letter;
 }
 
