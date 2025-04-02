@@ -41,22 +41,10 @@ function drawLetter(letterData) {
   ellipse(0, 40 - legR/2, 12, 80)//left leg
   pop()
 
-  push()
-  translate(70, 55)
-  rotate(armR)
-  ellipse(0, 25, 10, 60)//right arm
-  pop()
-
-  push()
-  translate(30, 55)
-  rotate(armL)
-  ellipse(0, 25, 10, 60)//left arm
-  pop()
-
   fill(207, 41, 94)//red
   triangle(50, 60, 20, 150, 80, 150)//skirt
-  triangle(50, 80, 50 -30, 150, 50 + dressL, 135 + dressL)//lift dress left
-  triangle(50, 80, 50 + dressR, 135 + dressR, 80, 150)//lift dress right
+  triangle(50, 80, 50 -30, 150, 50 + dressL, 100)//lift dress left
+  triangle(50, 80, 50 + dressR, 100, 80, 150)//lift dress right
   triangle(50, 120, 30, 50, 70, 50)//bodice
   
   fill(0)//black
@@ -78,6 +66,20 @@ function drawLetter(letterData) {
   fill(255, 229, 199)//skin
   ellipse(50, 45, 12, 30)//neck
   ellipse(50, 30, 20, 30)//head
+
+  fill(255, 229, 199)//skin
+
+  push()
+  translate(70, 55)
+  rotate(armR)
+  ellipse(0, 25, 10, 60)//right arm
+  pop()
+
+  push()
+  translate(30, 55)
+  rotate(armL)
+  ellipse(0, 25, 10, 60)//left arm
+  pop()
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
