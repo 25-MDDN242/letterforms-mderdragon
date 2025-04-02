@@ -5,184 +5,296 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": -14,
+    "legpointL": 14,
+    "armraiseR": -185,
+    "armraiseL": 185,
+    "elbowR": 0,
+    "elbowL": 0,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "B": {
-    "size": 75,
-    "offsetx": 0,
-    "offsety": -70
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -20,
+    "armraiseL": -180,
+    "dressliftR": 35,
+    "dressliftL": 0
   },
   "C": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -140,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "D": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -180,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "E": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -90,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "F": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -90,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "G": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": 0,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "H": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -180,
+    "armraiseL": 180,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "I": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": 0,
+    "armraiseL": 0,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "J": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": -90,
+    "armraiseL": 90,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "K": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -140,
+    "armraiseL": -180,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "L": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -90,
+    "armraiseL": 180,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "M": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -35,
+    "armraiseL": 35,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "N": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -180,
+    "armraiseL": 180,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "O": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -20,
+    "armraiseL": 20,
+    "dressliftR": 35,
+    "dressliftL": -35
   },
   "P": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -20,
+    "armraiseL": 0,
+    "dressliftR": 35,
+    "dressliftL": 0
   },
   "Q": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -20,
+    "armraiseL": 20,
+    "dressliftR": 35,
+    "dressliftL": -35
   },
   "R": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -50,
+    "armraiseL": 0,
+    "dressliftR": 35,
+    "dressliftL": 0,
   },
   "S": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": -140,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "T": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -90,
+    "armraiseL": 90,
+    "dressliftR": 0,
+    "dressliftL": 0,
+    "elbowR": -90,
+    "elbowL": 90
   },
   "U": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -130,
+    "armraiseL": 130,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "V": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -160,
+    "armraiseL": 160,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "W": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 14,
+    "armraiseR": -160,
+    "armraiseL": 160,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "X": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 14,
+    "armraiseR": -160,
+    "armraiseL": 160,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "Y": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -160,
+    "armraiseL": 160,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "Z": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": 45,
+    "armraiseL": 140,
+    "dressliftR": 0,
+    "dressliftL": -25
   },
   "0": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": -20,
+    "armraiseL": 20,
+    "dressliftR": 35,
+    "dressliftL": -35
   },
   "1": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": 0,
+    "armraiseL": 40,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "2": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": 45,
+    "armraiseL": 90,
+    "dressliftR": 0,
+    "dressliftL": -25
   },
   "3": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": -14,
+    "legpointL": 0,
+    "armraiseR": -140,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "4": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": 0,
+    "armraiseL": 20,
+    "dressliftR": 0,
+    "dressliftL": -35
   },
   "5": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": -90,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "6": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": -140,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": 0
   },
   "7": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": 0,
+    "armraiseL": 90,
+    "dressliftR": 0,
+    "dressliftL": 0
   },
   "8": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 0,
+    "armraiseR": 45,
+    "armraiseL": -45,
+    "dressliftR": 25,
+    "dressliftL": -25
   },
   "9": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "legpointR": 0,
+    "legpointL": 14,
+    "armraiseR": 45,
+    "armraiseL": 30,
+    "dressliftR": 0,
+    "dressliftL": -25
   }
 
 }
