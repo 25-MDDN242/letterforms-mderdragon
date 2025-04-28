@@ -7,10 +7,10 @@ const alphabet = {
   "A": {
     "legpointR": -14,
     "legpointL": 14,
-    "armraiseR": -185,
-    "armraiseL": 185,
-    "elbowR": 0,
-    "elbowL": 0,
+    "armraiseR": -165,
+    "armraiseL": 165,
+    "elbowR": -195,
+    "elbowL": 195,
     "dressliftR": 0,
     "dressliftL": 0
   },
@@ -19,6 +19,8 @@ const alphabet = {
     "legpointL": 0,
     "armraiseR": -20,
     "armraiseL": -180,
+    "elbowR": -10,
+    "elbowL": -180,
     "dressliftR": 35,
     "dressliftL": 0
   },
@@ -147,6 +149,8 @@ const alphabet = {
     "legpointL": 0,
     "armraiseR": -50,
     "armraiseL": 0,
+    "elbowR": 10,
+    "elbowL": 0,
     "dressliftR": 35,
     "dressliftL": 0,
   },
@@ -165,8 +169,6 @@ const alphabet = {
     "armraiseL": 90,
     "dressliftR": 0,
     "dressliftL": 0,
-    "elbowR": -90,
-    "elbowL": 90
   },
   "U": {
     "legpointR": 0,

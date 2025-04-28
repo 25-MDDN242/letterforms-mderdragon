@@ -81,27 +81,41 @@ function drawLetter(letterData) {
   ellipse(0, 10, 10, 30)//left arm
   pop()
 
-if(armR <= 90 && armR>= -90) {
-  push()
-  translate(70 - (armR/3.5), 85 + (armR/3.3))
-  rotate(forearmR)
-  ellipse(0, 10, 10, 35)//left arm
-  pop()
-} else {
-  push()
-  translate(70 - (armR/3.5), 85 + (armR/3.3))
-  rotate(forearmR)
-  ellipse(0, 10, 10, 35)//left arm
-  pop()
-}
+// if(armR <= 90 && armR>= -90) {
+//   push()
+//   translate(70 - (armR/3.5), 83 + (armR/3.3))
+//   rotate(forearmR)
+//   ellipse(0, 10, 10, 35)//left arm
+//   pop()
+// } else {
+//   push()
+//   translate(27 - (armR/3.5), 83 + (armR/3.3))
+//   rotate(forearmR)
+//   ellipse(0, 10, 10, 35)//left arm
+//   pop()
+// }
 
-  push()
-  translate(30 - (armL/3.5), 85 - (armL/3.3))
-  rotate(forearmL)
-  ellipse(0, 10, 10, 35)//left arm
-  pop()
+// if(armL <= 90 && armL>= -90) {
+//   push()
+//   translate(30 - (armL/3.5), 83 - (armL/3.3))
+//   rotate(forearmL)
+//   ellipse(0, 10, 10, 35)//left arm
+//   pop()
+// } else {
+//   push()
+//   translate(73 - (armL/3.5), 83 - (armL/3.3))
+//   rotate(forearmL)
+//   ellipse(0, 10, 10, 35)//left arm
+//   pop()
+// }
 
+elbowR = map(armR, 0, 90, 0, 22)
 
+push()
+translate(70 - elbowR, 77 + elbowR)
+//rotate(forearmR)
+ellipse(0, 15, 10, 35)
+pop()
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
