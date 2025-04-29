@@ -136,6 +136,8 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["armraiseL"]    = map(percent, 0, 100, oldObj["armraiseL"], newObj["armraiseL"]);
   new_letter["dressliftR"] = map(percent, 0, 100, oldObj["dressliftR"], newObj["dressliftR"]);
   new_letter["dressliftL"] = map(percent, 0, 100, oldObj["dressliftL"], newObj["dressliftL"]);
+  new_letter["elbowR"] = map(percent, 0, 100, oldObj["elbowR"], newObj["elbowR"]);
+  new_letter["elbowL"] = map(percent, 0, 100, oldObj["elbowL"], newObj["elbowL"]);
   return new_letter;
 }
 
