@@ -81,10 +81,10 @@ function drawLetter(letterData) {
   ellipse(0, 10, 10, 30)//left arm
   pop()
 
-  elbowR = map(armR, 0, 90, 0, 22)
-  elbowL = map(armL, 0, 90, 0, 22)
+  elbowR = map(armR, 0, 90, 0, 22)//calculating right elbow position
+  elbowL = map(armL, 0, 90, 0, 22)//calculating left elbow position
 
-  if(armR >= 0 && armR<= 90){
+  if(armR >= 0 && armR<= 90){ //drawing right forearm in accordance to elbow position
     push()
     translate(67 - elbowR, 77 - elbowR)
     rotate(forearmR)
@@ -104,7 +104,7 @@ function drawLetter(letterData) {
     pop()
   }
 
-  if(armL >= 0 && armL<= 90){
+  if(armL >= 0 && armL<= 90){ //drawing left forearm in accordance to elbow position
     push()
     translate(28 - elbowL, 77 - elbowL)
     rotate(forearmL)
@@ -142,7 +142,7 @@ function interpolate_letter(percent, oldObj, newObj) {
 }
 
 var swapWords = [
-  "ABBAABBA",
-  "CAB?CAB?",
-  "BAAAAAAA"
+  "MOVEMENT",
+  " DANCER ",
+  "PRANCING"
 ]

@@ -1,7 +1,7 @@
 const alphabet = {
   "default": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -125,
     "armraiseL": 50,
     "elbowR": -170,
@@ -10,8 +10,8 @@ const alphabet = {
     "dressliftL": 0
   },
   "A": {
-    "legpointR": -14,
-    "legpointL": 14,
+    "legpointR": -12,
+    "legpointL": 12,
     "armraiseR": -145,
     "armraiseL": 145,
     "elbowR": 150,
@@ -30,7 +30,7 @@ const alphabet = {
     "dressliftL": 0
   },
   "C": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -140,
     "armraiseL": 20,
@@ -50,7 +50,7 @@ const alphabet = {
     "dressliftL": -35
   },
   "E": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -50,
     "armraiseL": -30,
@@ -70,7 +70,7 @@ const alphabet = {
     "dressliftL": 0
   },
   "G": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -140,
     "armraiseL": -50,
@@ -101,7 +101,7 @@ const alphabet = {
   },
   "J": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -30,
     "armraiseL": 90,
     "elbowR": 20,
@@ -110,12 +110,12 @@ const alphabet = {
     "dressliftL": 0
   },
   "K": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -140,
     "armraiseL": 180,
     "elbowR": -140,
-    "elbowL": 180,
+    "elbowL": -180,
     "dressliftR": 0,
     "dressliftL": 0
   },
@@ -140,7 +140,7 @@ const alphabet = {
     "dressliftL": 0
   },
   "N": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -180,
     "armraiseL": -25,
@@ -170,7 +170,7 @@ const alphabet = {
     "dressliftL": 0,
   },
   "Q": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -40,
     "armraiseL": 40,
@@ -180,7 +180,7 @@ const alphabet = {
     "dressliftL": -35
   },
   "R": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -50,
     "armraiseL": 0,
@@ -191,7 +191,7 @@ const alphabet = {
   },
   "S": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -30,
     "armraiseL": 150,
     "elbowR": 20,
@@ -215,7 +215,7 @@ const alphabet = {
     "armraiseR": -130,
     "armraiseL": 130,
     "elbowR": 180,
-    "elbowL": 180,
+    "elbowL": -180,
     "dressliftR": 0,
     "dressliftL": 0
   },
@@ -240,8 +240,8 @@ const alphabet = {
     "dressliftL": 0
   },
   "X": {
-    "legpointR": -14,
-    "legpointL": 14,
+    "legpointR": -12,
+    "legpointL": 12,
     "armraiseR": -160,
     "armraiseL": 160,
     "elbowR": -160,
@@ -251,7 +251,7 @@ const alphabet = {
   },
   "Y": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -140,
     "armraiseL": 140,
     "elbowR": -160,
@@ -260,7 +260,7 @@ const alphabet = {
     "dressliftL": 0
   },
   "Z": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": 50,
     "armraiseL": 90,
@@ -271,7 +271,7 @@ const alphabet = {
   },
   "0": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -40,
     "armraiseL": 40,
     "elbowR": 5,
@@ -290,7 +290,7 @@ const alphabet = {
     "dressliftL": 0
   },
   "2": {
-   "legpointR": -14,
+   "legpointR": -12,
     "legpointL": 0,
     "armraiseR": -150,
     "armraiseL": 30,
@@ -300,7 +300,7 @@ const alphabet = {
     "dressliftL": -20
   },
   "3": {
-    "legpointR": -14,
+    "legpointR": -12,
     "legpointL": 0,
     "armraiseR": 0,
     "armraiseL": 160,
@@ -321,7 +321,7 @@ const alphabet = {
   },
   "5": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": -90,
     "armraiseL": -45,
     "elbowR": -90,
@@ -341,7 +341,7 @@ const alphabet = {
   },
   "7": {
     "legpointR": 0,
-    "legpointL": 14,
+    "legpointL": 12,
     "armraiseR": 50,
     "armraiseL": 90,
     "elbowR": 35,
