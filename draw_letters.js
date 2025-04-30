@@ -18,6 +18,11 @@ function drawLetter(letterData) {
 
   angleMode(DEGREES)
 
+
+
+  let yellow = color(255, 218, 56)
+  let white = color(255, 229, 199)
+
   let legR = letterData["legpointR"];
   let legL = letterData["legpointL"];
   let armR = letterData["armraiseR"];
@@ -26,8 +31,13 @@ function drawLetter(letterData) {
   let forearmL = letterData["elbowL"];
   let dressL = letterData["dressliftL"];
   let dressR = letterData["dressliftR"];
+  let skincolour = letterData["yellow"]
 
-  fill(255, 229, 199)//skin
+  if(skincolour > 0) {
+    fill(255, 218, 56)//yellow
+  } else {
+    fill(255, 229, 199)//skin
+  }
 
   push()
   translate(60, 100)
@@ -63,11 +73,14 @@ function drawLetter(letterData) {
   ellipse(-legL * 1.5, legL/2, 10, 15)//left foot
   pop()
 
-  fill(255, 229, 199)//skin
+  if(skincolour > 0) {
+    fill(255, 218, 56)//yellow
+  } else {
+    fill(255, 229, 199)//skin
+  }
+
   ellipse(50, 45, 12, 30)//neck
   ellipse(50, 30, 20, 30)//head
-
-  fill(255, 229, 199)//skin
 
   push()
   translate(70, 55)
@@ -138,6 +151,7 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["dressliftL"] = map(percent, 0, 100, oldObj["dressliftL"], newObj["dressliftL"]);
   new_letter["elbowR"] = map(percent, 0, 100, oldObj["elbowR"], newObj["elbowR"]);
   new_letter["elbowL"] = map(percent, 0, 100, oldObj["elbowL"], newObj["elbowL"]);
+  new_letter["yellow"] = map(percent, 0, 100, oldObj["yellow"], newObj["yellow"]);
   return new_letter;
 }
 

@@ -7,7 +7,8 @@ const alphabet = {
     "elbowR": -170,
     "elbowL": 10,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": true
   },
   "A": {
     "legpointR": -12,
@@ -17,7 +18,8 @@ const alphabet = {
     "elbowR": 150,
     "elbowL": -150,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "B": {
     "legpointR": 0,
@@ -27,7 +29,8 @@ const alphabet = {
     "elbowR": 0,
     "elbowL": -180,
     "dressliftR": 35,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "C": {
     "legpointR": -12,
@@ -37,7 +40,8 @@ const alphabet = {
     "elbowR": -120,
     "elbowL": 15,
     "dressliftR": 0,
-    "dressliftL": -35
+    "dressliftL": -35,
+    "yellow": false
   },
   "D": {
     "legpointR": 0,
@@ -47,7 +51,8 @@ const alphabet = {
     "elbowR": 180,
     "elbowL": 0,
     "dressliftR": 0,
-    "dressliftL": -35
+    "dressliftL": -35,
+    "yellow": false
   },
   "E": {
     "legpointR": -12,
@@ -57,7 +62,8 @@ const alphabet = {
     "elbowR": 40,
     "elbowL": -55,
     "dressliftR": 15,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "F": {
     "legpointR": 0,
@@ -67,7 +73,8 @@ const alphabet = {
     "elbowR": -90,
     "elbowL": -35,
     "dressliftR": 25,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "G": {
     "legpointR": -12,
@@ -77,7 +84,8 @@ const alphabet = {
     "elbowR": -120,
     "elbowL": -35,
     "dressliftR": 25,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "H": {
     "legpointR": 0,
@@ -87,7 +95,8 @@ const alphabet = {
     "elbowR": 180,
     "elbowL": -180,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "I": {
     "legpointR": 0,
@@ -97,7 +106,8 @@ const alphabet = {
     "elbowR": 20,
     "elbowL": -20,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "J": {
     "legpointR": 0,
@@ -107,7 +117,8 @@ const alphabet = {
     "elbowR": 20,
     "elbowL": 90,
     "dressliftR": 20,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "K": {
     "legpointR": -12,
@@ -117,7 +128,8 @@ const alphabet = {
     "elbowR": -140,
     "elbowL": -180,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "L": {
     "legpointR": 0,
@@ -127,7 +139,8 @@ const alphabet = {
     "elbowR": -90,
     "elbowL": 180,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "M": {
     "legpointR": 0,
@@ -137,7 +150,8 @@ const alphabet = {
     "elbowR": -20,
     "elbowL": 20,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "N": {
     "legpointR": -12,
@@ -147,7 +161,8 @@ const alphabet = {
     "elbowR": 180,
     "elbowL": -35,
     "dressliftR": 15,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "O": {
     "legpointR": 0,
@@ -157,7 +172,8 @@ const alphabet = {
     "elbowR": 5,
     "elbowL": -5,
     "dressliftR": 35,
-    "dressliftL": -35
+    "dressliftL": -35,
+    "yellow": false
   },
   "P": {
     "legpointR": 0,
@@ -168,6 +184,7 @@ const alphabet = {
     "elbowL": -45,
     "dressliftR": 35,
     "dressliftL": 0,
+    "yellow": false
   },
   "Q": {
     "legpointR": -12,
@@ -177,7 +194,8 @@ const alphabet = {
     "elbowR": 5,
     "elbowL": -5,
     "dressliftR": 35,
-    "dressliftL": -35
+    "dressliftL": -35,
+    "yellow": false
   },
   "R": {
     "legpointR": -12,
@@ -188,6 +206,7 @@ const alphabet = {
     "elbowL": 0,
     "dressliftR": 35,
     "dressliftL": 0,
+    "yellow": false
   },
   "S": {
     "legpointR": 0,
@@ -197,7 +216,8 @@ const alphabet = {
     "elbowR": 20,
     "elbowL": -150,
     "dressliftR": 20,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "T": {
     "legpointR": 0,
@@ -208,6 +228,7 @@ const alphabet = {
     "elbowL": 90,
     "dressliftR": 0,
     "dressliftL": 0,
+    "yellow": false
   },
   "U": {
     "legpointR": 0,
@@ -217,7 +238,8 @@ const alphabet = {
     "elbowR": 180,
     "elbowL": -180,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "V": {
     "legpointR": 0,
@@ -227,7 +249,8 @@ const alphabet = {
     "elbowR": -170,
     "elbowL": 170,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "W": {
     "legpointR": 0,
@@ -237,7 +260,8 @@ const alphabet = {
     "elbowR": -160,
     "elbowL": 160,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "X": {
     "legpointR": -12,
@@ -246,8 +270,9 @@ const alphabet = {
     "armraiseL": 160,
     "elbowR": -160,
     "elbowL": 160,
-    "dressliftR": 20,
-    "dressliftL": -20
+    "dressliftR": 0,
+    "dressliftL": 0,
+    "yellow": false
   },
   "Y": {
     "legpointR": 0,
@@ -257,7 +282,8 @@ const alphabet = {
     "elbowR": -160,
     "elbowL": 160,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "Z": {
     "legpointR": -12,
@@ -267,7 +293,8 @@ const alphabet = {
     "elbowR": 30,
     "elbowL": 90,
     "dressliftR": 0,
-    "dressliftL": -20
+    "dressliftL": -20,
+    "yellow": false
   },
   "0": {
     "legpointR": 0,
@@ -277,7 +304,8 @@ const alphabet = {
     "elbowR": 5,
     "elbowL": -5,
     "dressliftR": 35,
-    "dressliftL": -35
+    "dressliftL": -35,
+    "yellow": false
   },
   "1": {
     "legpointR": 0,
@@ -287,7 +315,8 @@ const alphabet = {
     "elbowR": 160,
     "elbowL": -90,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "2": {
    "legpointR": -12,
@@ -297,7 +326,8 @@ const alphabet = {
     "elbowR": 150,
     "elbowL": -20,
     "dressliftR": 0,
-    "dressliftL": -20
+    "dressliftL": -20,
+    "yellow": false
   },
   "3": {
     "legpointR": -12,
@@ -307,7 +337,8 @@ const alphabet = {
     "elbowR": -90,
     "elbowL": -160,
     "dressliftR": 0,
-    "dressliftL": -20
+    "dressliftL": -20,
+    "yellow": false
   },
   "4": {
     "legpointR": 0,
@@ -317,7 +348,8 @@ const alphabet = {
     "elbowR": 90,
     "elbowL": -150,
     "dressliftR": 0,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "5": {
     "legpointR": 0,
@@ -327,7 +359,8 @@ const alphabet = {
     "elbowR": -90,
     "elbowL": -30,
     "dressliftR": 20,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "6": {
     "legpointR": 0,
@@ -337,7 +370,8 @@ const alphabet = {
     "elbowR": 10,
     "elbowL": -160,
     "dressliftR": 25,
-    "dressliftL": 0
+    "dressliftL": 0,
+    "yellow": false
   },
   "7": {
     "legpointR": 0,
@@ -347,7 +381,8 @@ const alphabet = {
     "elbowR": 35,
     "elbowL": 90,
     "dressliftR": 0,
-    "dressliftL": -25
+    "dressliftL": -25,
+    "yellow": false
   },
   "8": {
     "legpointR": 0,
@@ -357,7 +392,8 @@ const alphabet = {
     "elbowR": 35,
     "elbowL": -35,
     "dressliftR": 20,
-    "dressliftL": -20
+    "dressliftL": -20,
+    "yellow": false
   },
   "9": {
     "legpointR": 0,
@@ -368,6 +404,7 @@ const alphabet = {
     "elbowL": -10,
     "dressliftR": 0,
     "dressliftL": -35,
+    "yellow": false
   }
 
 }
