@@ -8,4 +8,8 @@ Her arms, legs, and toes are controlled by parameters that rotate and move. Thes
 
 I decided to remove the parameters that controlled the pointing of the feet as it was not a very noticable detail and I wanted to make room for more parameters such as joints and colour changes. Now the feet point/rotate in the same fashion as the legs.
 
-After designing the initial alphabet with just one ellipse for each limb, I decided she needed some joints to allow for more movement and variation between letters. I opted against designing knees as I figured they would be mostly obstructed by the dress and ultimately not used much. On the other hand, designing elbows was worthwhile. I struggled a lot with fixing the ellipses together at a point and there is still a few letters where the elbows stick out slightly.
+After designing the initial alphabet with just one ellipse for each limb, I decided she needed some joints to allow for more movement and variation between letters. I opted against designing knees as I figured they would be mostly obstructed by the dress and ultimately not used much. On the other hand, designing elbows was worthwhile. I did struggle with fixing the ellipses together at an elbow point and there is still a few letters where the elbows stick out slightly.
+
+I edited some of my parameter values to fix some interpolation as sometimes the limbs would spin awkwardly or in the wrong direction. This still occurs sometimes but for the most part her movement is natural.
+
+I wanted the default character to pay homage to the original inspiring emoji, so I positioned her limbs in the same way. I also had a go at turning her skin yellow but felt this somewhat clashed with the aesthetic of the font, and I could not figure out how to smoothly transition between the colours.

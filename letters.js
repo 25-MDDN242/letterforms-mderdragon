@@ -56,7 +56,7 @@ const alphabet = {
     "armraiseL": -30,
     "elbowR": 40,
     "elbowL": -55,
-    "dressliftR": 15,
+    "dressliftR": 0,
     "dressliftL": 0,
   },
   "F": {
@@ -142,9 +142,9 @@ const alphabet = {
   "N": {
     "legpointR": -12,
     "legpointL": 0,
-    "armraiseR": -10,
+    "armraiseR": -180,
     "armraiseL": -10,
-    "elbowR": 0,
+    "elbowR": 180,
     "elbowL": -30,
     "dressliftR": 0,
     "dressliftL": 0,

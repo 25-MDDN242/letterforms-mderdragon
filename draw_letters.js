@@ -28,6 +28,8 @@ function drawLetter(letterData) {
   let dressL = letterData["dressliftL"];
   let dressR = letterData["dressliftR"];
 
+
+
   fill(255, 229, 199)//skin
 
   push()
@@ -124,8 +126,6 @@ function drawLetter(letterData) {
     pop()
   }
 
-
-
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
@@ -142,7 +142,29 @@ function interpolate_letter(percent, oldObj, newObj) {
 }
 
 var swapWords = [
+  "LADYLIKE",
   "MOVEMENT",
   " DANCER ",
-  "PRANCING"
+  "PRANCING",
+  "1AND2AND",
+  "BALLROOM",
+  "MACARENA",
+  "FANDANGO",
+  "HULAHOOP",
+  "TAPDANCE",
+  "WAKAWAKA",
+  "CHA CHA ",
+  " SHIMMY ",
+  "CAN CAN ",
+  "GET DOWN",
+  "SPINNING",
+  "FESTIVAL",
+  "SHAKE IT",
+  "ABSTRACT",
+  "FOX-TROT",
+  " BALLET ",
+  "HIP HOP ",
+  " RHYTHM ",
+  "BOX STEP",
+  "ANDPOINT"
 ]
