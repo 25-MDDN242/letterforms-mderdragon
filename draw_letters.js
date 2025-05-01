@@ -28,8 +28,6 @@ function drawLetter(letterData) {
   let dressL = letterData["dressliftL"];
   let dressR = letterData["dressliftR"];
 
-
-
   fill(255, 229, 199)//skin
 
   push()
