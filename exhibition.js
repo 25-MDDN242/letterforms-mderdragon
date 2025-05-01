@@ -96,6 +96,8 @@ function setup () {
   main_canvas = createCanvas(canvasWidth, canvasHeight);
   main_canvas.parent('canvasContainer');
 
+  imgStage = loadImage('stage.png');//load stage image
+
   let now = millis();
   lastKeyPressedTime = now;
   lastWordSwappedTime = now;
@@ -230,6 +232,8 @@ function draw () {
     var obj = computeCurrentChosenChar(i);
     drawFromDataObject(o + i*w2/8.0, o + h2/2.0 - 120, 1.0, obj)
   }
+
+  image(imgStage, 0, 0)//draw stage image
 }
 
 function swapExhibitLetter(n, c, frameDelay) {
