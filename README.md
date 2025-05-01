@@ -2,7 +2,9 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18867790&assignment_repo_type=AssignmentRepo)
 ## MDDN 242 2025 Assignment 2
 
-My letters are resembled by a dancing woman. This was my very first idea for the project, inspired by cheerleading movements. The design is a simplistic, faceless figure somewhat based off of the 'dancing lady' emoji, e.g. the red dress. It sits in between readable and abstract as she is meant to move as a human would, and the human body cannot precisely replicate a font so her movement at least somewhat resembles the character.
+'LadyLike' by Emma Nash
+
+My letters are resembled by a dancing woman. This was my very first idea for the project, inspired by cheerleading routines. The design is a simplistic, faceless figure somewhat designed off of the 'dancing lady' emoji (💃💃🏻), e.g. the red dress. It sits in between readable and abstract as she is meant to move as a human would, and the human body cannot precisely replicate a font so her movement at least somewhat resembles the character. For the same reasons the characters are a mix of uppercase and lowercase.
 
 Her arms, legs, and toes are controlled by parameters that rotate and move. These parameters are duplicated and reversed for left and right limbs (marked by either an L or R). Both sides of her skirt can be 'lifted' via parameters as well for more dynamism.
 
@@ -13,3 +15,5 @@ After designing the initial alphabet with just one ellipse for each limb, I deci
 I edited some of my parameter values to fix some interpolation as sometimes the limbs would spin awkwardly or in the wrong direction. This still occurs sometimes but for the most part her movement is natural.
 
 I wanted the default character to pay homage to the original inspiring emoji, so I positioned her limbs in the same way. I also had a go at turning her skin yellow but felt this somewhat clashed with the aesthetic of the font, and I could not figure out how to smoothly transition between the colours.
+
+I wanted to make the exhibition page more visually interesting and on-theme, so I drew up a stage foreground with audience seats and curtains. I matched the colour of the curtains and seats to her dress for cohesion, and made the background a dull blue as it contrasted against and highlighted the characters.
